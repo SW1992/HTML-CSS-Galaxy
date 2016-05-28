@@ -1,0 +1,195 @@
+html {
+  background-image: url("https://pixabay.com/static/uploads/photo/2015/03/26/09/53/stars-690522_960_720.jpg"); 
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;  
+  /* set's space background to cover full width & height of the browser window */
+}
+#sun {
+	position: relative;
+  top: 0em;
+  left: 11%;
+  height: 10.625em; 
+  width: 10.625em;  
+	/* set's size of sun & aligns with other planets */
+}
+.sun-container {
+  position: relative;
+  top: 11em;
+  left: 85%; 
+  width: 11.25em; 
+  height: 11.25em; 
+
+}
+#mercury {
+	position: relative;
+  top: 0.5em;
+  left: 15%; 
+	/* position mercury */
+  height: 2.5em;
+  width: 2.5em; 
+	/* size mercury */
+
+}
+.mercury-container {
+	position: relative;
+  top: 4em;
+  left: 80%;
+	width: 3.75em;
+	height: 3.75em;
+}
+#venus {
+  position: relative;
+	top: 0.5em;
+  left: 15%;
+	/* position venus */
+  height: 2.5em;
+  width: 2.5em;
+	/* size venus */
+}
+.venus-container {
+	position: relative;
+  top: 0.25em;
+  left: 70%; 
+	width: 3.75em;
+	height: 3.75em;
+}
+#earth {
+	position: relative;
+	top: 0.5em;
+  left: 15%;
+	/* position earth */
+  height: 2.5em;
+  width: 2.5em;
+	/* size earth */
+}
+.earth-container {
+	position: relative;
+  top: -3.5em; 
+  left: 60%; 
+	width: 3.75em;
+	height: 3.75em;
+}
+
+#mars {
+	position: relative;
+	top: 0.5em;
+  left: 15%;
+	/* position mars */
+  height: 2.5em;
+  width: 2.5em;
+	/* size mars */
+}
+.mars-container {
+	position: relative;
+  top: -7.2em; 
+  left: 50%; 
+	width: 3.75em;
+	height: 3.75em;
+}
+#jupiter {
+	position: relative;
+	top: 0.5em;
+  left: 15%;
+	/* position jupiter */
+  height: 2.5em;
+  width: 2.5em;
+	/* size jupiter */
+}
+.jupiter-container {
+	position: relative;
+  top: -10.9em;  
+  left: 40%;   
+	width: 3.75em;
+	height: 3.75em;
+}
+#saturn{
+	position: relative;
+	top: 0.5em;
+  left: 15%;
+	/* position saturn */
+  height: 2.5em;
+  width: 2.5em;
+	/* size saturn */
+}
+.saturn-container {
+	position: relative;
+  top: -14.6em;  
+  left: 30%;     
+	width: 3.75em;
+	height: 3.75em;
+}
+#uranus {
+	position: relative;
+	top: 0.5em;
+  left: 15%;
+	/* position uranus */
+  height: 2.5em;
+  width: 2.5em;
+	/* size uranus */
+}
+.uranus-container {
+	position: relative;
+  top: -18.3em;  
+  left: 20%;     
+	width: 3.75em;
+	height: 3.75em;
+}
+#neptune {
+	position: relative;
+	top: 0.5em;
+  left: 15%;
+	/* position uranus */
+  height: 2.5em;
+  width: 2.5em;
+	/* size uranus */
+}	
+.neptune-container {
+	position: relative;
+  top: -22em;  
+  left: 10%;     
+	width: 3.75em;
+	height: 3.75em;
+} 
+#pluto {
+	position: relative; 
+	top: 0.5em;
+  left: 15%;
+	/* position pluto */
+  height: 2.5em;
+  width: 2.5em;
+	/* size pluto */
+}
+.pluto-container {
+	position: relative;
+  top: -25.7em;  
+  left: 0%;      
+	width: 3.75em;
+	height: 3.75em; 
+}
+#comet {
+	position: relative;
+	top: -40em;  
+  left: 30%; 
+	/* position comet */
+	height: 1.5625em;
+	width: 1.5625em;
+	/* size comet */	
+}
+#spaceship {
+	position: relative;
+	top: -35em;
+	left: 4%;  
+	/* position spaceship */
+	height: 1.25em;
+	width: 1.25em; 
+	/* size spaceship */
+	
+}
+footer p {
+  color: #ffffff;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
